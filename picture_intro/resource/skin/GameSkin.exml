@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+    <e:Image x="0" y="0" source="background1_jpg" locked="true"/>
+	<e:Image source="image_03_png" x="47.8" y="77.09"/>
+	<ns1:GameDragItem id="drag_0" skinName="DragItemSkin" y="98" x="71"/>
+	<ns1:GameDragItem id="drag_1" skinName="DragItemSkin" y="156" x="71"/>
+	<ns1:GameDragItem id="drag_2" skinName="DragItemSkin" y="217" x="71"/>
+	<ns1:GameDragItem id="drag_3" skinName="DragItemSkin" y="281" x="71"/>
+	<ns1:GameDragItem id="drag_4" skinName="DragItemSkin" y="342" x="71"/>
+	<ns1:GameDragItem id="drag_5" skinName="DragItemSkin" y="401" x="71"/>
+	<e:Image source="gold_png" x="55.65" y="513.4" anchorOffsetX="0" width="109.33" anchorOffsetY="0" height="108.33"/>
+	<e:Label y="49.99" x="823.2" text="1/5" fontFamily="katong"/>
+	<e:Label id="tf_total" text="0" x="123.61" y="516.87" size="40" stroke="3" anchorOffsetX="0" width="92" strokeColor="0x836465" textColor="0xFFE41F"/>
+	<e:Image source="rabbit_03_png" x="349" y="108.32"/>
+	<e:Image source="submit_png" x="713.66" y="542.33"/>
+	<e:Label y="466" x="426" text="This is his"/>
+	<e:Label y="464.67" x="571.24" text="grandmother" size="26"/>
+	<e:Rect y="491.94" x="569.27" fillColor="0xffffff" width="150" height="2"/>
+	<e:Image source="rabbit_06_png" x="638.33" y="133"/>
+	<e:Image source="rabbit-19_png" x="431" y="134.66"/>
+	<e:Image source="rabbit_09_png" x="515.01" y="193.66"/>
+	<e:Image source="rabbit_11_png" x="592.36" y="195.01"/>
+	<e:Image source="rabbit_17_png" x="652.3" y="259.98"/>
+	<e:Image source="rabbit_14_png" x="459.01" y="246.97"/>
+</e:Skin>

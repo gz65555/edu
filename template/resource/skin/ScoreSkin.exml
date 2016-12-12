@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ScoreSkin" width="194" height="96" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gold_png" x="0" y="0" anchorOffsetX="0" width="93.34" anchorOffsetY="0" height="89.67"/>
+	<e:Label id="tf_score" text="123" x="90.99" y="17.66" size="50" strokeColor="0xAA9945" stroke="2" anchorOffsetX="0" width="92"/>
+</e:Skin>

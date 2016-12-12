@@ -1,0 +1,70 @@
+{
+	"groups": [
+		{
+			"keys": "",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/img/Button_12.png",
+			"type": "image",
+			"name": "Button_12_png"
+		},
+		{
+			"url": "assets/img/Button_22.png",
+			"type": "image",
+			"name": "Button_22_png"
+		},
+		{
+			"url": "assets/img/background.jpg",
+			"type": "image",
+			"name": "background_jpg"
+		},
+		{
+			"url": "assets/img/background1.jpg",
+			"type": "image",
+			"name": "background1_jpg"
+		},
+		{
+			"url": "assets/img/excellent.mp3",
+			"type": "sound",
+			"name": "excellent_mp3"
+		},
+		{
+			"url": "assets/img/game_15.png",
+			"type": "image",
+			"name": "game_15_png"
+		},
+		{
+			"url": "assets/img/gold.png",
+			"type": "image",
+			"name": "gold_png"
+		},
+		{
+			"url": "assets/img/good.mp3",
+			"type": "sound",
+			"name": "good_mp3"
+		},
+		{
+			"url": "assets/img/goodjob.mp3",
+			"type": "sound",
+			"name": "goodjob_mp3"
+		},
+		{
+			"url": "assets/img/oops.mp3",
+			"type": "sound",
+			"name": "oops_mp3"
+		},
+		{
+			"url": "assets/img/verygood.mp3",
+			"type": "sound",
+			"name": "verygood_mp3"
+		},
+		{
+			"url": "assets/img/welldone.mp3",
+			"type": "sound",
+			"name": "welldone_mp3"
+		}
+	]
+}
