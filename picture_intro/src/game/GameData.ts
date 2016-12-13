@@ -32,33 +32,39 @@ class GameData {
     public static pic_mapping = [
         {
             text: 'mother',
-            normal: '',
-            select: ''
+            normal: 'rabbit_11_png',
+            select: 'rabbit1_11_png',
+            randomKey: 1
         },
         {
             text: 'father',
             normal: 'rabbit_09_png',
-            select: 'rabbit1_09_png'
+            select: 'rabbit1_09_png',
+            randomKey: 1
         },
         {
             text: 'brother',
-            normal: '',
-            select: ''
+            normal: 'rabbit_17_png',
+            select: 'rabbit1_17_png',
+            randomKey: 1
         },
         {
             text: 'sister',
-            normal: '',
-            select: ''
+            normal: 'rabbit_14_png',
+            select: 'rabbit1_14_png',
+            randomKey: 1
         },
         {
             text: 'grandmother',
-            normal: '',
-            select: ''
+            normal: 'rabbit-19_png',
+            select: 'rabbit1-19_png',
+            randomKey: 1
         },
         {
             text: 'grandfather',
             normal: 'rabbit_06_png',
-            select: 'rabbit1_06_png'
+            select: 'rabbit1_06_png',
+            randomKey: 1
         }
     ];
     public static score = 0;

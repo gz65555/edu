@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "rabbit_03_png,rabbit_06_png,rabbit_09_png,rabbit_11_png,rabbit_14_png,rabbit_17_png,rabbit11_png,rabbit-19_png,rabbit1_06_png,rabbit1_09_png,rabbit1_11_png,rabbit1_14_png,rabbit1_17_png,rabbit1-19_png,submit_png,image_06_png,image_12_png,image_14_png,image_16_png,image_22_png,image_24_png,background_jpg,background1_jpg,Button_12_png,Button_22_png,excellent_mp3,game_15_png,gold_png,good_mp3,goodjob_mp3,oops_mp3,verygood_mp3,welldone_mp3,image_03_png",
+			"keys": "rabbit_03_png,rabbit_06_png,rabbit_09_png,rabbit_11_png,rabbit_14_png,rabbit_17_png,rabbit11_png,rabbit-19_png,rabbit1_06_png,rabbit1_09_png,rabbit1_11_png,rabbit1_14_png,rabbit1_17_png,rabbit1-19_png,submit_png,image_06_png,image_12_png,image_14_png,image_16_png,image_22_png,image_24_png,background_jpg,background1_jpg,Button_12_png,Button_22_png,excellent_mp3,game_15_png,gold_png,good_mp3,goodjob_mp3,oops_mp3,verygood_mp3,welldone_mp3,image_03_png,start_png",
 			"name": "preload"
 		}
 	],
@@ -175,6 +175,11 @@
 			"url": "assets/game/image_03.png",
 			"type": "image",
 			"name": "image_03_png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/game/start.png"
 		}
 	]
 }

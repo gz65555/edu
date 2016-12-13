@@ -133,6 +133,7 @@ class Main extends eui.UILayer {
         Api.ViewManager.regView(1, GameStartView, LayerType.GAME);
         Api.ViewManager.regView(2, GameView, LayerType.GAME);
         Api.ViewManager.regView(3, GameOverView, LayerType.GAME);
+        Api.ViewManager.regView(4, Score, LayerType.GAME);
         Api.ViewManager.openView(1);
     }
 }

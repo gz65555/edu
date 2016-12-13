@@ -2,17 +2,15 @@
  * Created by HuSong on 2016/12/10.
  */
 class GameDragAcceptItem extends eui.Component implements DragAccept {
+    public static DRAG_IN = 'drag_in';
     constructor() {
         super();
     }
 
-    proto:any;
-    img:eui.Image;
-    txtName:eui.Label;
+    txtAnswer:eui.Label;
+    correct:string = '';
     init(index) {
-        this.proto = GameData.config[index];
-        this.img.source = this.proto.accept_img;
-        this.txtName.text = '';
+        this.correct = GameData.pic_mapping[index].text;
     }
 
     childrenCreated() {
@@ -21,20 +19,24 @@ class GameDragAcceptItem extends eui.Component implements DragAccept {
     }
 
     onDragIn(item:GameDragItem) {
-        this.txtName.text = item.proto.text;
+        if(this.txtAnswer.text != "") {
+            return;
+        }
+        this.txtAnswer.text = item.proto.text;
         item.visible = false;
+        this.dispatchEventWith(GameDragAcceptItem.DRAG_IN);
     }
 
-    check() {
-        if(this.txtName.text == this.proto.text) {
+    check():boolean {
+        if(this.correct == this.txtAnswer.text) {
             return true;
         }
-        this.txtName.textColor = 0xff0000;
+        this.txtAnswer.textColor = 0xff0000;
         return false;
     }
 
     reset() {
-        this.txtName.text = "";
-        this.txtName.textColor = 0x333333;
+        this.txtAnswer.text = "";
+        this.txtAnswer.textColor = 0xffffff;
     }
 }

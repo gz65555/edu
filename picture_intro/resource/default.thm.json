@@ -29,6 +29,7 @@
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
     "resource/eui_skins/VSliderSkin.exml",
+    "resource/skin/DragAcceptSkin.exml",
     "resource/skin/DragItemSkin.exml",
     "resource/skin/GameOverSkin.exml",
     "resource/skin/GameSkin.exml",

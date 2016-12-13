@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DragAcceptSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="300" height="80">
+	<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Label y="25" x="0" text="This is his"/>
+	<e:Label id="txtAnswer" y="23.67" x="145.24" text="" size="26"/>
+	<e:Rect y="50.94" x="143.27" fillColor="0xFFFFFF" width="150" height="2"/>
+</e:Skin>
