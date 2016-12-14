@@ -57,6 +57,8 @@ var game_file_list = [
 	"bin-debug/core/utils/TextFlowMaker.js",
 	"bin-debug/core/view/BaseView.js",
 	"bin-debug/core/view/ViewManager.js",
+	"bin-debug/game/Balloon.js",
+	"bin-debug/game/GameData.js",
 	"bin-debug/game/GameView.js",
 	"bin-debug/GameOverView.js",
 	"bin-debug/GameStartView.js",

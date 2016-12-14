@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="GameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="640" width="960">
-    <e:Image x="0" y="0" source="background1_jpg" locked="true"/>
-	<e:Image source="image_03_png" x="47.8" y="77.09"/>
-	<ns1:GameDragItem id="drag_0" skinName="DragItemSkin" y="97.55" x="70.85"/>
-	<ns1:GameDragItem id="drag_1" skinName="DragItemSkin" y="155.55" x="70.85"/>
-	<ns1:GameDragItem id="drag_2" skinName="DragItemSkin" y="216.55" x="70.85"/>
-	<ns1:GameDragItem id="drag_3" skinName="DragItemSkin" y="280.55" x="70.85"/>
-	<ns1:GameDragItem id="drag_4" skinName="DragItemSkin" y="341.55" x="70.85"/>
-	<ns1:GameDragItem id="drag_5" skinName="DragItemSkin" y="400.55" x="70.85"/>
-	<e:Image source="image_09_png" x="450.71" y="171.21"/>
-    <ns1:GameDragAcceptItem id="drag_ac_4" y="23.7" x="329.8" skinName="DragAcceptSkin"/>
-	<ns1:GameDragAcceptItem id="drag_ac_0" skinName="DragAcceptSkin" y="213.7" x="328.8"/>
-	<ns1:GameDragAcceptItem id="drag_ac_2" skinName="DragAcceptSkin" y="403.7" x="328.8"/>
-	<ns1:GameDragAcceptItem id="drag_ac_3" skinName="DragAcceptSkin" y="403.7" x="524.8"/>
-	<ns1:GameDragAcceptItem id="drag_ac_1" skinName="DragAcceptSkin" y="213.7" x="524.8"/>
-	<ns1:GameDragAcceptItem id="drag_ac_5" skinName="DragAcceptSkin" y="23.7" x="526.8"/>
-	<e:Image id="btn" source="check_png" x="718.15" y="531.77"/>
-	<e:Image source="gold_png" x="55.65" y="513.4" anchorOffsetX="0" width="109.33" anchorOffsetY="0" height="108.33"/>
-	<e:Label id="tf_total" text="0" x="123.61" y="516.87" size="40" stroke="3" anchorOffsetX="0" width="92" strokeColor="0x836465" textColor="0xFFE41F"/>
+    <e:Image x="0" y="0" source="background1_jpg"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="image_03_png" x="0" y="53.39"/>
+		<ns1:GameDragItem id="drag_0" skinName="DragItemSkin" y="73.85" x="23.049999999999997"/>
+		<ns1:GameDragItem id="drag_1" skinName="DragItemSkin" y="131.85000000000002" x="23.049999999999997"/>
+		<ns1:GameDragItem id="drag_2" skinName="DragItemSkin" y="192.85000000000002" x="23.049999999999997"/>
+		<ns1:GameDragItem id="drag_3" skinName="DragItemSkin" y="256.85" x="23.049999999999997"/>
+		<ns1:GameDragItem id="drag_4" skinName="DragItemSkin" y="317.85" x="23.049999999999997"/>
+		<ns1:GameDragItem id="drag_5" skinName="DragItemSkin" y="376.85" x="23.049999999999997"/>
+		<e:Image source="image_09_png" x="402.90999999999997" y="147.51"/>
+		<ns1:GameDragAcceptItem id="drag_ac_4" y="0" x="282" skinName="DragAcceptSkin"/>
+		<ns1:GameDragAcceptItem id="drag_ac_0" skinName="DragAcceptSkin" y="190" x="281"/>
+		<ns1:GameDragAcceptItem id="drag_ac_2" skinName="DragAcceptSkin" y="380" x="281"/>
+		<ns1:GameDragAcceptItem id="drag_ac_3" skinName="DragAcceptSkin" y="380" x="476.99999999999994"/>
+		<ns1:GameDragAcceptItem id="drag_ac_1" skinName="DragAcceptSkin" y="190" x="476.99999999999994"/>
+		<ns1:GameDragAcceptItem id="drag_ac_5" skinName="DragAcceptSkin" y="0" x="478.99999999999994"/>
+		<e:Image id="btn" source="check_png" x="670.35" y="508.07"/>
+		<e:Image source="gold_png" x="7.8500000000000085" y="489.7" anchorOffsetX="0" width="109.33" anchorOffsetY="0" height="108.33"/>
+		<e:Label id="tf_total" text="0" x="75.81000000000002" y="493.17" size="40" stroke="3" anchorOffsetX="0" width="92" strokeColor="0x836465" textColor="0xFFE41F"/>
+	</e:Group>
 </e:Skin>

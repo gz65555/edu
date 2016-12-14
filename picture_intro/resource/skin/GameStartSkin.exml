@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="GameStartSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="background_jpg" left="0" right="0" top="0" bottom="0"/>
-	<e:Label text="游戏规则" y="106.67" size="42" textColor="0xea5b5c" x="398.67" bold="true" fontFamily="katong"/>
-	<e:Label text="规则说明" y="180.34" anchorOffsetX="0" width="357.34" anchorOffsetY="0" height="167.34" x="296.34" textColor="0x7c5b3a" bold="true" fontFamily="katong"/>
-	<e:Label text="游戏最高分：6" y="353.67" anchorOffsetX="0" width="602.67" anchorOffsetY="0" height="50" x="176.33" textAlign="center" verticalAlign="middle" textColor="0x7c5b3a" fontFamily="katong"/>
-	<e:Button id="btn_start" label="" y="414.33" x="369.99">
-		<e:skinName>
+	<e:Image source="background_jpg" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Group width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Label text="游戏规则" y="106.67" size="42" textColor="0xea5b5c" x="398.67" bold="true" fontFamily="katong" scaleX="1" scaleY="1"/>
+		<e:Label text="将全家福中被标记人物的对应单词拖动到下方句子中的横线上." y="180.34" anchorOffsetX="0" width="357.34" anchorOffsetY="0" height="167.34" x="296.34" textColor="0x7c5b3a" bold="true" fontFamily="katong" scaleX="1" scaleY="1" lineSpacing="12"/>
+		<e:Label text="游戏最高分：6" y="353.67" anchorOffsetX="0" width="602.67" anchorOffsetY="0" height="50" x="176.33" textAlign="center" verticalAlign="middle" textColor="0x7c5b3a" fontFamily="katong" scaleX="1" scaleY="1"/>
+		<e:Button id="btn_start" label="" y="414.33" x="369.99" scaleX="1" scaleY="1">
+			<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="Button_22_png" source.down="Button_22_png" source.disabled="Button_22_png"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="100%" height="100%" source="Button_22_png" source.down="Button_22_png" source.disabled="Button_22_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
-		</e:skinName>
-	</e:Button>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
 </e:Skin>

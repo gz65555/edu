@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "",
+			"keys": "image123_03_png,image123_05_png,image123_07_png,image123_09_png,image123_12_png,image123_14_png,image123_17_png,image123_27_png,image123_30_png,image1234_27_png,image1234_29_png,image1234_32_png,background_jpg,background1_jpg,Button_12_png,Button_22_png,excellent_mp3,game_15_png,gold_png,good_mp3,goodjob_mp3,oops_mp3,verygood_mp3,welldone_mp3,start_png",
 			"name": "preload"
 		}
 	],
@@ -65,6 +65,71 @@
 			"url": "assets/img/welldone.mp3",
 			"type": "sound",
 			"name": "welldone_mp3"
+		},
+		{
+			"url": "assets/game/image1234_27.png",
+			"type": "image",
+			"name": "image1234_27_png"
+		},
+		{
+			"url": "assets/game/image1234_29.png",
+			"type": "image",
+			"name": "image1234_29_png"
+		},
+		{
+			"url": "assets/game/image1234_32.png",
+			"type": "image",
+			"name": "image1234_32_png"
+		},
+		{
+			"url": "assets/game/image123_03.png",
+			"type": "image",
+			"name": "image123_03_png"
+		},
+		{
+			"url": "assets/game/image123_05.png",
+			"type": "image",
+			"name": "image123_05_png"
+		},
+		{
+			"url": "assets/game/image123_07.png",
+			"type": "image",
+			"name": "image123_07_png"
+		},
+		{
+			"url": "assets/game/image123_09.png",
+			"type": "image",
+			"name": "image123_09_png"
+		},
+		{
+			"url": "assets/game/image123_12.png",
+			"type": "image",
+			"name": "image123_12_png"
+		},
+		{
+			"url": "assets/game/image123_14.png",
+			"type": "image",
+			"name": "image123_14_png"
+		},
+		{
+			"url": "assets/game/image123_17.png",
+			"type": "image",
+			"name": "image123_17_png"
+		},
+		{
+			"url": "assets/game/image123_27.png",
+			"type": "image",
+			"name": "image123_27_png"
+		},
+		{
+			"url": "assets/game/image123_30.png",
+			"type": "image",
+			"name": "image123_30_png"
+		},
+		{
+			"url": "assets/game/start.png",
+			"type": "image",
+			"name": "start_png"
 		}
 	]
 }

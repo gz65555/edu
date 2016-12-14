@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BallSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="196" height="222">
+	<e:Image id="ball" source="image123_03_png" x="0" y="0"/>
+    <e:Label id="label" horizontalCenter="0" verticalCenter="-6"/>
+	<e:Image id="boom" source="image1234_32_png" x="107" y="40"/>
+</e:Skin>

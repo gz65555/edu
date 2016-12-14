@@ -127,14 +127,14 @@ class BaseView extends eui.Component {
     }
 
     protected calculatePos() {
-        if (this.width > Api.StageUtil.stageWidth || this.height > Api.StageUtil.stageHeight) {
-            var scale = Api.StageUtil.stageHeight / this.height;
+        if (this.measuredWidth > Api.StageUtil.stageWidth || this.measuredHeight > Api.StageUtil.stageHeight) {
+            var scale = Api.StageUtil.stageHeight / this.measuredHeight;
             this.scaleX = this.scaleY = scale;
         } else {
             this.scaleX = this.scaleY = 1;
         }
-        var tempX = (Api.StageUtil.stageWidth - this.width * this.scaleX) / 2;
-        var tempY = (Api.StageUtil.stageHeight - this.height * this.scaleY) / 2 + 3;
+        var tempX = (Api.StageUtil.stageWidth - this.measuredWidth * this.scaleX) / 2;
+        var tempY = (Api.StageUtil.stageHeight - this.measuredHeight * this.scaleY) / 2 + 3;
         if (this._scaleEffect) {
             this.touchEnabled = false;
             this.touchChildren = false;

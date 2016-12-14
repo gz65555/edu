@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="background1_jpg" x="0" y="0" scaleX="1"/>
+    <e:Group id="gameGroup" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="image123_30_png" x="382.64" y="437.33"/>
+        <e:Image source="gold_png" x="35.65" y="493.4" anchorOffsetX="0" width="109.33" anchorOffsetY="0" height="108.33" scaleX="1" scaleY="1"/>
+            <e:Label id="tf_total" text="0" x="103.61" y="496.87" size="40" stroke="3" anchorOffsetX="0" width="92" strokeColor="0x836465" textColor="0xFFE41F" scaleX="1" scaleY="1"/>
+        <e:Image source="image123_17_png" x="45" y="30"/>
+        <e:Group id="ballGroup" x="177" y="-207" scaleX="1" scaleY="1">
+            <ns1:Balloon id="ball1" skinName="BallSkin"/>
+            <ns1:Balloon id="ball2" skinName="BallSkin" x="10" y="10"/>
+            <ns1:Balloon id="ball3" skinName="BallSkin" x="20" y="20"/>
+            <ns1:Balloon id="ball4" skinName="BallSkin" x="30" y="30"/>
+            <e:layout>
+                <e:HorizontalLayout gap="0"/>
+            </e:layout>
+        </e:Group>
+        <e:Image id="arrow" source="image123_27_png" x="543" y="615" anchorOffsetX="54" anchorOffsetY="214" rotation="0"/>
+        <e:Label id="txtMark" y="29.99" x="873.2" text="1/6" fontFamily="katong" scaleX="1" scaleY="1" size="35"/>
+        <e:Label id="txtTime" y="129.99" x="55.2" text="3" scaleX="1" scaleY="1" size="35" anchorOffsetX="0" width="50" verticalAlign="middle" textAlign="center"/>
+			<e:Image id="boomImg"/>
+			<e:Image id="btn" x="713.66" y="542.33" source="start_png"/>
+    </e:Group>	
+</e:Skin>
